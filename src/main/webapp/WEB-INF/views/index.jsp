@@ -23,9 +23,6 @@
             Spring MVC + Spring Data JPA + Bootstrap 3
         </p>
 
-        <p>
-            <a class="btn btn-primary btn-large" href="http://github.com/vito16/shop">Github</a>
-        </p>
     </div>
 
 </div>
