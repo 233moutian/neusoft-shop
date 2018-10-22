@@ -1,5 +1,8 @@
 package com.vito16.shop.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import com.vito16.shop.common.AppConfig;
 import com.vito16.shop.common.Constants;
 import com.vito16.shop.common.Page;
@@ -28,10 +31,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
-import java.util.Date;
-import java.util.List;
-import java.util.Objects;
-import java.util.UUID;
+import java.util.*;
 
 import static com.vito16.shop.util.UserUtil.getUserFromSession;
 
@@ -81,6 +81,28 @@ public class UserController {
         userService.save(user);
         logger.info("成功添加用户:{}", user);
         return "redirect:/";
+    }
+
+    @RequestMapping(value = "checkNameExists")
+    public @ResponseBody String checkNameValidMethod(@RequestParam String username) {
+        boolean result = true;
+        List<User> lstUser = userService.findAllUser();
+        for (User user : lstUser) {
+            if (user.getUsername().equals(username)) {
+                result = false;
+                break;
+            }
+        }
+        Map<String, Boolean> map = new HashMap<>();
+        map.put("valid", result);
+        ObjectMapper mapper = new ObjectMapper();
+        String resultString = "";
+        try {
+            resultString = mapper.writeValueAsString(map);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return resultString;
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
