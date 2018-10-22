@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * @author Vito
  * @email zhouwentao16@gmail.com
@@ -33,6 +35,10 @@ public class UserService {
 		return user;
 	}
 
+	public List<User> findAllUser(){
+		List<User> users = userDao.findAllUser();
+		return users;
+	}
     public User findByUsername(String username){
         return userDao.findByUsername(username);
     }
