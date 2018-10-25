@@ -18,7 +18,7 @@
             * */
             $("#carouselMenu").carousel({
                 interval: 5000,
-                
+
                 wrap: true
             });
         })
@@ -59,6 +59,7 @@
 </div>
 
 <!-- /container -->
+<%@include file="/common/sc.jsp"%>
 <%@include file="/common/footer.jsp" %>
 <%@ include file="/common/include-base-js.jsp" %>
 </body>
