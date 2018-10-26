@@ -7,8 +7,8 @@ import java.util.Date;
 
 /**
  * 图片实体
- * @author 木鱼 muyu@yiji.com
- * @version 2014/10/14
+ * @author 朱鑫龙
+ * @version 2018/10/16
  */
 @Entity
 @DynamicUpdate

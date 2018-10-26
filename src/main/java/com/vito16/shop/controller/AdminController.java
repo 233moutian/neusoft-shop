@@ -24,8 +24,8 @@ import javax.servlet.http.HttpSession;
 import java.util.Date;
 
 /**
- * @author Vito zhouwentao16@gmail.com
- * @date 2013-7-8
+ * @author 周欣文
+ * @date 2018/10/11
  */
 @Controller
 @RequestMapping("/admin")

@@ -4,8 +4,8 @@ import com.vito16.shop.model.Product;
 
 /**
  * 购物车关联项
- * @author Vito
- * @version 2014/6/16
+ * @author 周欣文
+ * @version 2018/10/19
  */
 public class CartItem {
     private Product product;//商品

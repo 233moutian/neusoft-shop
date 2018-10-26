@@ -14,8 +14,8 @@ import java.util.List;
 /**
  * 订单
  *
- * @author Vito16 zhouwentao16@gmail.com
- * @date 2013-7-8
+ * @author 朱鑫龙
+ * @date 2018/10/16
  */
 @Entity
 @Table(name = "t_order")

@@ -13,8 +13,8 @@ import java.util.NoSuchElementException;
 import java.util.Properties;
 
 /**
- * @author 木鱼 muyu@yiji.com
- * @version 2016/03/14
+ * @author 周欣文
+ * @version 2018/10/14
  */
 public class PropertiesLoader {
 	private static Logger logger = LoggerFactory

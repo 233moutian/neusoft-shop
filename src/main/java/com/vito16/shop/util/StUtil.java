@@ -4,9 +4,8 @@
 package com.vito16.shop.util;
 
 /**
- * @author Vito
- * @email zhouwentao16@gmail.com
- * @date 2013-7-18
+ * @author 周欣文
+ * @version 2018/10/19
  *
  */
 public class StUtil {

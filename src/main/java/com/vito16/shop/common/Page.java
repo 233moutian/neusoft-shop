@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * @author Vito
- * @version 2014/6/14
+ * @author 周欣文
+ * @version 2018/10/12
  */
 public class Page<T> {
     public static final int DEFAULT_PAGE_SIZE = 10;

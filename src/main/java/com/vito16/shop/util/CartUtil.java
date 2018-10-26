@@ -15,8 +15,8 @@ import java.util.Map;
 /**
  * 购物车工具类
  *
- * @author Vito
- * @version 2014/6/16
+ * @author 周欣文
+ * @version 2018/10/19
  */
 public class CartUtil {
     public static final String CART = Constants.CART;

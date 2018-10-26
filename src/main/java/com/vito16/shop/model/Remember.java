@@ -6,8 +6,8 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * @author 木鱼 muyu@yiji.com
- * @version 2017/2/13
+ * @author 周欣文
+ * @date 2018/10/16
  */
 @Entity
 @Table(name = "t_remember")

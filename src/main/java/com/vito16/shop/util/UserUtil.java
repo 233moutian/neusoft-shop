@@ -7,8 +7,9 @@ import javax.servlet.http.HttpSession;
 
 /**
  * 用户工具类
- * 
- * @author Vito
+ *
+ * @author 周欣文
+ * @version 2018/10/19
  *
  */
 public class UserUtil {

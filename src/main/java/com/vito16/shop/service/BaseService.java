@@ -9,9 +9,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author Vito
- * @email zhouwentao16@gmail.com
- * @date 2013-7-9
+ * @author 周欣文
+ * @date 2018/10/18
  * 
  */
 public abstract class BaseService implements

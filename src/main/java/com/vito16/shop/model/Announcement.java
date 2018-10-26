@@ -10,9 +10,8 @@ import java.util.Date;
 /**
  * 公告
  *
- * @author Vito
- * @email zhouwentao16@gmail.com
- * @date 2013-7-18
+ * @author 朱鑫龙
+ * @date 2018/10/17
  */
 @Entity
 @Table(name = "t_announcement")

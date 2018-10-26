@@ -6,8 +6,8 @@ import lombok.Setter;
 import java.io.Serializable;
 
 /**
- * @author 木鱼 muyu@yiji.com
- * @version 2017/12/15
+ * @author 朱鑫龙
+ * @version 2018/10/11
  */
 @Setter
 @Getter

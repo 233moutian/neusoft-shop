@@ -1,7 +1,8 @@
 package com.vito16.shop.service;
 
 /**
- * Created by vito on 16/3/9.
+ * @author 周欣文
+ * @date 2018/10/18
  */
 public abstract class ProcessInvoker {
     abstract  void process();

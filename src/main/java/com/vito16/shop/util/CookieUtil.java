@@ -5,8 +5,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author 木鱼 muyu@yiji.com
- * @version 2017/2/8
+ * @author 周欣文
+ * @version 2018/10/19
  */
 public class CookieUtil {
 

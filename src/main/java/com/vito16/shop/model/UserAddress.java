@@ -7,8 +7,8 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * @author Vito16 zhouwentao16@gmail.com
- * @date 2013-7-8
+ * @author 周欣文
+ * @date 2018/10/16
  * 
  */
 @Entity

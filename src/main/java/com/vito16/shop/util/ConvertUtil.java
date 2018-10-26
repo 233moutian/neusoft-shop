@@ -6,6 +6,8 @@ import java.util.Date;
 
 /**
  *
+ * @author 周欣文
+ * @version 2018/10/19
  */
 public class ConvertUtil {
 	public static String toDateStr(Object o) throws ParseException {

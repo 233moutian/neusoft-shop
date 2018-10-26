@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author Vito zhouwentao16@gmail.com
- * @date 2013-7-8
+ * @author 周欣文
+ * @date 2018/10/15
  */
 @Controller
 @RequestMapping("/")

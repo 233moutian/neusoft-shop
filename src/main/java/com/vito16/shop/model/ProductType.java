@@ -5,10 +5,9 @@ import java.io.Serializable;
 
 /**
  * 商品类型
- * 
- * @author Vito
- * @email zhouwentao16@gmail.com
- * @date 2013-7-9
+ *
+ * @author 周欣文
+ * @date 2018/10/16
  * 
  */
 @Entity

@@ -9,9 +9,8 @@ import java.util.Date;
 
 /**
  * 新闻
- * @author Vito
- * @email zhouwentao16@gmail.com
- * @date 2013-7-18
+ * @author 周欣文
+ * @date 2018/10/17
  * 
  */
 @Entity

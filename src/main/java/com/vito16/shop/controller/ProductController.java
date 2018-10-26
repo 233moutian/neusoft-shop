@@ -19,8 +19,8 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author Vito zhouwentao16@gmail.com
- * @version 2013-7-17
+ * @author 周欣文
+ * @version 2018/10/16
  */
 @Controller
 @RequestMapping(value = "/product")

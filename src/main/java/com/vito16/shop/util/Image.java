@@ -32,8 +32,8 @@ import java.io.IOException;
  * Emphasize parts of the image
  * Affine transform image
  *
- * @author 木鱼 muyu@yiji.com
- * @version 2014/11/26
+ * @author 周欣文
+ * @version 2018/10/19
  */
 public class Image {
     private BufferedImage bufferedImage;

@@ -15,8 +15,8 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author Vito zhouwentao16@gmail.com
- * @date 2013-7-8
+ * @author 朱鑫龙
+ * @date 2018/10/15
  */
 @Controller
 @RequestMapping("/news")

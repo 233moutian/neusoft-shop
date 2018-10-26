@@ -17,8 +17,8 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 /**
- * @author 木鱼 muyu@yiji.com
- * @version 2016/03/14
+ * @author 朱鑫龙
+ * @version 2018/10/07
  */
 @SpringBootApplication
 @EnableJpaRepositories

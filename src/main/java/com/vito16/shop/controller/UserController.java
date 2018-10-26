@@ -36,8 +36,8 @@ import java.util.*;
 import static com.vito16.shop.util.UserUtil.getUserFromSession;
 
 /**
- * @author Vito zhouwentao16@gmail.com
- * @version 2013-7-8
+ * @author 朱鑫龙
+ * @version 2018/10/16
  */
 @Controller
 @RequestMapping("/user")

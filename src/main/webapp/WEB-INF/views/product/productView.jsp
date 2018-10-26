@@ -15,7 +15,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-5 text-center">
-                <img class="img-responsive img-rounded" src="${ctx}${product.masterPic.url}">
+                <img class="img-responsive img-rounded" src="../../images/goods/${product.id}.jpg">
             </div>
             <div class="col-md-7">
                 <div class="form-group">

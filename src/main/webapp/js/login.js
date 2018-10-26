@@ -14,14 +14,6 @@
                     regexp: {
                         regexp: /^[a-zA-Z0-9_]+$/,
                         message: '用户名只能包含大写、小写、数字和下划线'
-                    },
-                    threshold:4,//只有4个字符以上才发送ajax
-                    remote: {
-                        url: "${ctx}/user/checkNameExists",
-                        message: "用户名已经存在",
-                        delay: 2000,
-                        type: 'POST',
-                        cache:false
                     }
                 }
             },

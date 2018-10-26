@@ -17,8 +17,8 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpSession;
 
 /**
- * @author Vito zhouwentao16@gmail.com
- * @date 2013-7-8
+ * @author 朱鑫龙
+ * @date 2018/11/14
  */
 @Controller
 @RequestMapping("/cart")
